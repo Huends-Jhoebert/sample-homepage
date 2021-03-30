@@ -16,7 +16,7 @@ body{
 }
 
 
-.navbar{
+.navbar, .navbar-2{
 	display: flex;
 	justify-content: space-between;
 	padding: 1rem;
@@ -26,7 +26,7 @@ body{
 }
 
 
-.navbar-ul{
+.navbar-ul,{
 	list-style: none;
 	padding: 0;
 	display: flex;
@@ -34,13 +34,13 @@ body{
 	margin-right: 5rem;
 }
 
-.navbar li{
+.navbar li, .navbar-2 li{
 	margin: 0 0.9rem;
 	font-size: 0.9rem;
 	padding-top: 0.1rem;
 }
 
-.navbar a{
+.navbar a, .navbar-2 a{
 	text-decoration: none;
 	color: rgba(255,255,255,.7);
 }
@@ -67,7 +67,11 @@ body{
 
 .logo > p:hover, .logo > i:hover, .navbar-ul a:hover{
 	color: #fff ;
-} 
+}
+
+/* fixed navbar */
+
+
 
 .header-content{
 	position: relative;
@@ -731,6 +735,7 @@ body{
 .footer-content-1 p{
 	margin-top: 0.9rem;
 	font-size: 1.6rem;
+
 }
 
 .footer-content-1 h2,
