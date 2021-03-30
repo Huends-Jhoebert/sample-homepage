@@ -712,6 +712,38 @@ body{
 	text-transform: uppercase;
 }
 
+.footer-content-1{
+	background: #9ACD32;
+	padding: 4rem;
+	color: #fff;
+	position: relative;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	z-index: 2;
+}
+
+.footer-content-1 h2,
+.footer-content-1 i,
+.footer-content-1 p{
+	margin-top: 0.9rem;
+	font-size: 1.6rem;
+}
+
+.footer-content-1 h2,
+.footer-content-1p{
+	font-weight: lighter;
+}
+
+.footer-content-2 p{
+	text-align: center;
+	padding: 4rem;
+	font-weight: 500;
+}
+
 
 
 
